@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+   
+    --body-color: #E4E9F7;
+    --sidebar-color: rgb(217, 202, 247);
+    --primary-color: #7A47EA;
+    --primary-color-light: #e1d9f3;
+    --toggle-color: #DDD;
+    --text-color: #554977;
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: #e1d9f3;
+}
+
+/* Member Registration */
+
+.member-reg{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+
+.member-reg .text {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 12px 60px;
+}
+
+.button_to_red{
+    color: #fff;
+    background-color: #f33548;
+    float: right;
+}
+
+.button_to_red:hover{
+    color: #fff;
+    background-color: #BB2D3B;
+    float: right;
+}
+
+.button_blue{
+    color: #ffffff;
+    background-color: #106cf7;
+    float: right;
+}
+
+.button_blue:hover{
+    color: #ffffff;
+    background-color: #0B5ED7;
+    float: right;
+}
