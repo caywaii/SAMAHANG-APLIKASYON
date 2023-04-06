@@ -30,7 +30,7 @@ if(isset($_SESSION['member'])){
                 <div class="row">
                     <div class="col-md-6 side-image">
                         <div class="text">
-                            <p>Be a part of the SAMAHANG PANGKABUHAYAN CREDIT COOP NG BAYAN!</p>
+                            <p>Be a part of the SAMAHANG PANGKABUHAYAN (CREDIT) na naka ganon COOP NG BAYAN!</p>
                         </div>
                     </div>
                     <div class="col right">
