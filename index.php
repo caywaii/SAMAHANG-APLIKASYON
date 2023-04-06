@@ -35,7 +35,7 @@ if(isset($_SESSION['member'])){
                     </div>
                     <div class="col right">
                         <div class="input-box">
-                            <header style="color:#7A47EA;">Welcome Back</header>
+                            <header style="color:#7A47EA;">WELCOME BACK</header>
                             <!--<div class="container-sm">-->
                             <!--    <div class="form-check-inline">-->
                             <!--        <input type="radio" class="btn-check" value="3" name="rbtn" id="memberradio" autocomplete="off" checked>-->
